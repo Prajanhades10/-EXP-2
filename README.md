@@ -42,9 +42,9 @@ Evaluate the trained model on test data using accuracy, confusion matrix, and cl
 
 ## PROGRAM
 
-### Name:SUBIKSHA K 
+### Name:PRAJAN.SS
 
-### Register Number:212224040332
+### Register Number:212224230201
 
 ```python
 import torch
@@ -155,8 +155,8 @@ with torch.no_grad():
 accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=[str(i) for i in label_encoder.classes_])
-print("Name: SUBIKSHA K")
-print("Register No:212224040332")
+print("Name: PRAJAN.SS")
+print("Register No:212224230201")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -176,8 +176,8 @@ with torch.no_grad():
     # Select the prediction for the sample (first element)
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = label_encoder.inverse_transform([predicted_class_index])[0]
-print("Name: SUBIKSHA K")
-print("Register No:212224040332")
+print("Name: PRAJAN.SS")
+print("Register No:212224230201")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[12].item()])[0]}')
 
@@ -189,7 +189,8 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 
 ### OUTPUT
 
-<img width="261" height="59" alt="image" src="https://github.com/user-attachments/assets/4264ffa4-9729-43c1-88f2-b03ab11bff7d" />
+<img width="3531" height="962" alt="Gemini_Generated_Image_cykdy3cykdy3cykd" src="https://github.com/user-attachments/assets/96deb4ea-2d6e-4d43-bbc8-2628fe9b225f" />
+
 
 
 ## Confusion Matrix
@@ -202,7 +203,8 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 
 
 ### New Sample Data Prediction
-<img width="359" height="87" alt="image" src="https://github.com/user-attachments/assets/1bcde9e7-c829-42c3-9d59-2ade66b892f7" />
+<img width="3465" height="944" alt="Gemini_Generated_Image_tj6946tj6946tj69" src="https://github.com/user-attachments/assets/9d1e9362-3d18-4d7c-8f62-e9fc37f16643" />
+
 
 
 ## RESULT
